@@ -6,7 +6,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100svh;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .attribution {
@@ -46,7 +47,8 @@ body {
 .article__right-container span {
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: #b0b0b9;
+  letter-spacing: 0.2em;
+  color: #7d7d83;
 }
 
 .article__right-container h1 {
@@ -56,7 +58,7 @@ body {
 .article__right-container p {
   margin-top: 0.6rem;
   font-size: 0.75rem;
-  color: #b0b0b9;
+  color: #7d7d83;
 }
 
 .article__price {
